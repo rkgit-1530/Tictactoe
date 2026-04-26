@@ -4,7 +4,7 @@ let gameActive = true;
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-const winningMessage = () => `Player ${currentPlayer} has won!`;
+const winningMessage = () => `Player O has won!`;
 const drawMessage = () => `Game ended in a draw!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
